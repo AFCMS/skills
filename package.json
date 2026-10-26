@@ -1,0 +1,29 @@
+{
+  "name": "skills",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "format": "oxfmt",
+    "format:check": "oxfmt --check"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.74.0"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^12",
+      "onFail": "error"
+    },
+    "runtime": {
+      "name": "node",
+      "version": "^26",
+      "onFail": "error"
+    }
+  }
+}
