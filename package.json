@@ -5,8 +5,8 @@
   "keywords": [],
   "license": "MIT",
   "author": "",
+  "files": [],
   "type": "module",
-  "main": "index.js",
   "scripts": {
     "format": "oxfmt",
     "format:check": "oxfmt --check"
